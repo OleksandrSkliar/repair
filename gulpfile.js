@@ -39,7 +39,11 @@ gulp.task("default", function () {
 
 gulp.task("server", function () {
   server.init({
-    server: "build/"
+    server: "build/",
+    notify: false,
+    open: true,
+    cors: true,
+    ui: false
   });
 
   gulp.watch("source/sass/**/*.{scss,sass}", gulp.series("css"));

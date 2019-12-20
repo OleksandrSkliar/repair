@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>IC "Repair Design Project"</title>
 	<link rel="preload" href="fonts/FuturaBookC.woff2" as="font" crossorigin="anonymous">
 	<link rel="preload" href="fonts/FuturaMediumC.woff2" as="font" crossorigin="anonymous">
@@ -11,14 +12,15 @@
 	<script>
     document.createElement( "picture" );
   </script>
-	<script src="js/picturefill.min.js" async></script>
+	<script src="js/picturefill.min.js" async=""></script>
 </head>
 <body>
+	<div class="wrapper">
 	<header class="page-header">
-		<a class="page-header__logo">
-      IC "Repair Design Project"
-    </a>
 		<nav class="main-nav">
+			<a class="page-header__logo">
+      IC "Repair Design Project"
+    	</a>
 			<ul class="main-nav__list site-list">
 				<li class="site-list__item">
 					<a href="#" class="site-list__link">
@@ -57,7 +59,7 @@
 						+7 (928) 768-32-39
 					</a>
 				</li>
-				<li class="contacts-list__feedback">
+				<li class="contacts-list__feedback contacts-list__feedback--none">
 					<a href="writeus.html" class="contacts-list__btn btn pop-up">
 						Request a call
 					</a>
@@ -65,5 +67,8 @@
 			</ul>
 		</nav>
 	</header>
+	<section class="page-welcome">
+	</section>
+	</div>
 </body>
 </html>
