@@ -1,0 +1,131 @@
+.welcome {
+	position: relative;
+	background-image: url("../img/welcome-mobile@1x.jpg");
+	background-repeat: no-repeat;
+}
+
+.welcome__overlay {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.welcome__instagram {
+	display: none;
+}
+
+.welcome__text {
+	padding-top: 82px;
+	padding-bottom: 60px;
+	padding-right: 18px;
+	padding-left: 18px;
+}
+
+.welcome__title {
+	font-family: Yeseva One;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 132.83%;
+	margin: 0;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.welcome__description {
+	width: 300px;
+	font-family: FuturaBookC;
+	font-size: 18px;
+	line-height: 135.84%;
+	margin: 0;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+
+
+.welcome__button {
+	margin: 0;
+}
+
+.welcome__btn-cost {
+	display: inline-block;
+	width: 200px;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 19px 70px;
+	margin-bottom: 25px;
+}
+
+.welcome__btn-submit {
+	display: inline-block;
+	width: 198px;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 18px 70px;
+	background-color: inherit;
+	border: 1px solid #FFFFFF;
+}
+
+.welcome__selected-text {
+	color: #E3B873;
+}
+
+@media (min-width: $desktop-width) {
+	.welcome {
+		position: relative;
+		background-image: url("../img/welcome-desktop@1x.jpg");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.welcome__text {
+		padding-top: 205px;
+		padding-bottom: 208px;
+		padding-right: 750px;
+		padding-left: 142px;
+	}
+
+	.welcome__title {
+		width: 600px;
+		font-size: 40px;
+		line-height: 53px;
+	}
+
+	.welcome__description {
+		width: 425px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.welcome__wrapper-btn {
+		display: flex;
+		justify-content: space-between;
+		width: 440px;
+	}
+
+	.welcome__btn-cost {
+		width: 124px;
+		padding: 19px 40px;
+		margin: 0;
+	}
+
+	.welcome__btn-submit {
+		width: 162px;
+		padding: 18px 20px;
+	}
+
+	.welcome__instagram {
+		position: absolute;
+		top: 40%;
+		display: inline-block;
+		transform: rotate(90deg);
+	}
+
+	.welcome__instagram-link {
+		font-family: FuturaDemiC;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		color: #E3B873;
+		text-decoration: none;
+
+	}
+}
