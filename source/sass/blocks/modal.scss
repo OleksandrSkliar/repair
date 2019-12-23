@@ -1,0 +1,43 @@
+.modal {
+  position: relative;
+}
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.modal__close::before,
+.modal__close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 12px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.modal__close::before {
+  transform: rotate(45deg);
+}
+
+.modal__close::after {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: $desktop-width) {
+  .modal {
+    width: 506px;
+  }
+}

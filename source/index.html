@@ -94,6 +94,49 @@
 				</div>
 			</div>
 		</section>
+		<section class="modal modal-show">
+			<form action="https://echo.htmlacademy.ru/" class="feeadback" method="post">
+				<fieldset class="feeadback__section">
+					<legend class="feeadback__section-title">
+						Leave a request and our manager will contact you shortly
+					</legend>
+					<div class="textbox">
+						<label class="textbox__title" for="firstname">Name
+						</label>
+						<div class="textbox__inner">
+							<input class="textbox__input" id="firstname" type="text" name="firstname" placeholder="What is your name:"
+								required="">
+						</div>
+					</div>
+					<div class="textbox">
+						<label class="textbox__title" for="phone">
+							Number
+						</label>
+						<div class="textbox__inner">
+							<input class="textbox__input" id="phone" type="tel" name="phone" placeholder="Your phone number:">
+						</div>
+					</div>
+					<div class="textbox">
+						<label class="textbox__title" for="email">Email
+						</label>
+						<div class="textbox__inner">
+							<input class="textbox__input" id="email" type="email" name="email" placeholder="Your email" required="">
+						</div>
+					</div>
+					<div class="feeadback__checbox">
+						<input class="feeadback__checbox-input" type="checkbox" name="check" id="check" checked="">
+						<label class="feeadback__checbox-label" for="check">
+							I agree to the processing of personal data
+						</label>
+					</div>
+					<button class="feeadback__button btn" type="submit">SUMBIT</button>
+				</fieldset>
+			</form>
+			<button class="modal__close" type="button">
+				Close
+			</button>
+		</section>
+	</div>
 	</div>
 </body>
 

@@ -1,0 +1,89 @@
+.textbox {
+  margin-top: 40px;
+}
+
+.textbox__title {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.textbox__input {
+  width: 100%;
+  font-family: FuturaMediumC;
+  font-size: 15px;
+  line-height: 138.72%;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: inherit;
+}
+
+.textbox__input::placeholder {
+  font-family: FuturaMediumC;
+  font-size: 15px;
+  line-height: 138.72%;
+  color: #FFFFFF;
+}
+
+.textbox__input:-moz-placeholder {
+  font-family: FuturaMediumC;
+  font-size: 15px;
+  line-height: 138.72%;
+  color: #FFFFFF;
+}
+
+.textbox__input::-moz-placeholder {
+  font-family: FuturaMediumC;
+  font-size: 15px;
+  line-height: 138.72%;
+  color: #FFFFFF;
+}
+
+.textbox__input::-webkit-input-placeholder {
+  font-family: FuturaMediumC;
+  font-size: 15px;
+  line-height: 138.72%;
+  color: #FFFFFF;
+}
+
+.textbox__input:-ms-placeholder {
+  font-family: FuturaMediumC;
+  font-size: 15px;
+  line-height: 138.72%;
+  color: #FFFFFF;
+}
+
+@media (min-width: $desktop-width) {
+  .textbox__input {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .textbox__input::placeholder {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .textbox__input:-moz-placeholder {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .textbox__input::-moz-placeholder {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .textbox__input::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .textbox__input:-ms-placeholder {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
