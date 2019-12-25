@@ -1,5 +1,13 @@
 .modal {
+  width: 375px;
   position: relative;
+  top: 0;
+  display: none;
+}
+
+.modal-show {
+  position: fixed;
+  display: block;
 }
 
 .modal__close {
@@ -12,7 +20,7 @@
   border: 0;
   outline: none;
   border-radius: 50%;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   background-color: inherit;
   cursor: pointer;
 }
@@ -21,10 +29,10 @@
 .modal__close::after {
   content: "";
   position: absolute;
-  top: 10px;
-  left: 4px;
+  top: 8px;
+  left: 3px;
   width: 12px;
-  height: 1px;
+  height: 2px;
   background-color: #ffffff;
 }
 
@@ -39,5 +47,7 @@
 @media (min-width: $desktop-width) {
   .modal {
     width: 506px;
+    left: 50%;
+    top: 20%;
   }
 }

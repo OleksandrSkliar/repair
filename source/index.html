@@ -55,12 +55,12 @@
 					</li>
 				</ul>
 				<ul class="main-nav__list contacts-list">
-					<li class="contacts-list__feedback">
+					<li class="contacts-list__feedback  contacts-list__feedback--none">
 						<a href="#" class="contacts-list__number">
 							+7 (928) 768-32-39
 						</a>
 					</li>
-					<li class="contacts-list__feedback contacts-list__feedback--none">
+					<li class="contacts-list__feedback">
 						<a href="writeus.html" class="contacts-list__btn btn pop-up">
 							Request a call
 						</a>
@@ -94,7 +94,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="modal modal-show">
+		<section class="modal">
 			<form action="https://echo.htmlacademy.ru/" class="feeadback" method="post">
 				<fieldset class="feeadback__section">
 					<legend class="feeadback__section-title">
@@ -124,8 +124,9 @@
 						</div>
 					</div>
 					<div class="feeadback__checbox">
-						<input class="feeadback__checbox-input" type="checkbox" name="check" id="check" checked="">
-						<label class="feeadback__checbox-label" for="check">
+						<label class="feeadback__checbox-label">
+							<input class="visually-hidden" type="checkbox" name="remember" checked="">
+							<span class="feeadback__checbox-indicator"></span>
 							I agree to the processing of personal data
 						</label>
 					</div>
@@ -138,6 +139,7 @@
 		</section>
 	</div>
 	</div>
+	<script src="js/popup.js"></script>
 </body>
 
 </html>
