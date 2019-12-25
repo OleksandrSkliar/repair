@@ -1,0 +1,129 @@
+.completed-projects {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 55px;
+}
+
+.completed-projects__title {
+  width: 253px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.completed-projects__description {
+  width: 310px;
+  line-height: 22px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.completed-projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.completed-projects__feature {
+  order: 3;
+  margin-top: 35px;
+}
+
+.completed-projects__item {
+  width: 140px;
+  margin-bottom: 25px;
+}
+
+.completed-projects__head {
+  font-family: Yeseva One;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.completed-projects__depiction {
+  line-height: 19px;
+  margin: 0;
+}
+
+@media (min-width: $desktop-width) {
+  .completed-projects {
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .completed-projects__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+  }
+
+  .completed-projects__title {
+    position: relative;
+    font-size: 27px;
+    line-height: 37px;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .completed-projects__description {
+    width: 440px;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .completed-projects__feature {
+    margin-top: 0;
+  }
+
+  .completed-projects__item {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .completed-projects__list {
+    width: 400px;
+  }
+
+  .completed-projects__head {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .completed-projects__depiction {
+    width: 110px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .completed-projects__title::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: -10px;
+    width: 92px;
+    height: 2px;
+    background-color: #E3B873;
+  }
+}
