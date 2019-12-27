@@ -1,0 +1,36 @@
+.request {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.request__descripion {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.request_feeadback {
+	position: relative;
+	padding: 0;
+	box-shadow: none;
+}
+
+@media (min-width: $desktop-width) {
+	.request {
+		padding-left: 330px;
+		padding-right: 330px;
+		background-color: #ffffff;
+		padding-top: 300px;
+}
+
+	.request__descripion {
+		width: 630px;
+		margin: 0 auto;
+		font-size: 20px;
+		line-height: 34px;
+		text-align: center;
+		color: #363636;
+	}
+}

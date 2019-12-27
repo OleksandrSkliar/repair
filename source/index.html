@@ -206,7 +206,7 @@
 					</li>
 				</ul>
 				<picture>
-					<source media="(min-width: 1438px)" srcset="img/slider-desktop@1x.jpg 1x, img/slider-desktop@2x.jpg 2x">
+					<source media="(min-width: 1438px)" srcset="img/slider-desktop@1x.jpg, img/slider-desktop@2x.jpg 2x">
 					<img class="slider__img" src="img/slider-mobile@1x.jpg" srcset="img/slider-mobile@2x.jpg 2x"
 						alt="Completed projects">
 				</picture>
@@ -216,8 +216,55 @@
 				</div>
 			</div>
 		</section>
+		<section class="control">
+			<h2 class="control__title">online control</h2>
+			<div class="control__head">
+			</div>
+			<div class="control__video video">
+				<picture>
+					<source media="(min-width: 1438px)" srcset="img/video-desktop-img@1x.jpg, img/video-desktop-img@2x.jpg 2x">
+					<img class="video__img" src="img/video-mobile-img@1x.jpg" srcset="img/video-mobile-img@2x.jpg 2x" alt="online control">
+				</picture>
+				<button class="video__btn"></button>
+			</div>
+		</section>
+		<section class="request">
+			<p class="request__descripion">
+				At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. Y
+ou can watch the live broadcast from one of our facilities!
+ Leave a request below and you will receive a link to the broadcast.
+			</p>
+			<form action="https://echo.htmlacademy.ru/" class="request_feeadback feeadback" method="post">
+				<fieldset class="feeadback__section feeadback__section--request">
+					<div class="textbox">
+						<label class="textbox__title" for="firstname">Name
+						</label>
+						<div class="textbox__inner">
+							<input class="textbox__input" id="firstname" type="text" name="firstname" placeholder="What is your name:"
+								required="">
+						</div>
+					</div>
+					<div class="textbox">
+						<label class="textbox__title" for="phone">
+							Number
+						</label>
+						<div class="textbox__inner">
+							<input class="textbox__input" id="phone" type="tel" name="phone" placeholder="Your phone number:">
+						</div>
+					</div>
+					<div class="feeadback__checbox">
+						<label class="feeadback__checbox-label">
+							<input class="visually-hidden" type="checkbox" name="remember" checked="">
+							<span class="feeadback__checbox-indicator"></span>
+							I agree to the processing of personal data
+						</label>
+					</div>
+					<button class="feeadback__button btn btn--request" type="submit">SUMBIT</button>
+				</fieldset>
+			</form>
+		</section>
+		<section class="eee">вадлволыоалдвыоалвыоао</section>
 	</div>
 	<script src="js/popup.js"></script>
 </body>
-
 </html>

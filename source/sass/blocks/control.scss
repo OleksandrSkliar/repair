@@ -1,0 +1,66 @@
+.control {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.control__title {
+	font-family: Yeseva One;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 30px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.control__head {
+	position: relative;
+  padding-bottom: 80px;
+	background-image: url("../img/icon-camera.svg");
+	background-position: center 20px;
+  padding-bottom: 80px;
+	background-repeat: no-repeat;
+}
+
+.control__head::before {
+	content:"";
+  position: absolute;
+  bottom: 50%;
+  right: 58%;
+  width: 32px;
+  height: 2px;
+  border-bottom: 2px solid #E3B873;
+}
+
+.control__head::after {
+	content:"";
+  position: absolute;
+  bottom: 50%;
+  right: 34%;
+  width: 32px;
+  height: 2px;
+  border-bottom: 2px solid #E3B873;
+}
+
+@media (min-width: $desktop-width) {
+	.control {
+		position: absolute;
+		top: 1560px;
+		padding-left: 310px;
+		padding-right: 311px;
+	}
+
+	.control__title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.control__head::before {
+	  right: 54%;
+	}
+
+	.control__head::after {
+	  right: 43%;
+	}
+}
